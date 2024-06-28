@@ -1,0 +1,14 @@
+:root {
+  --ngrey: rgb(224, 224, 224);
+  --agreen: rgb(20, 33, 24);
+  --bgreen: rgb(62, 87, 65);
+  --cgreen: rgb(156, 186, 101);
+  --dgreen: rgb(196, 199, 139);
+  --bg: rgb(234, 231, 245);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+}
