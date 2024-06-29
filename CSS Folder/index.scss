@@ -1,6 +1,7 @@
 :root {
   --ngrey: rgb(224, 224, 224);
   --agreen: rgb(20, 33, 24);
+  --a1green: rgb(33, 53, 39);
   --bgreen: rgb(62, 87, 65);
   --cgreen: rgb(156, 186, 101);
   --dgreen: rgb(196, 199, 139);
@@ -33,15 +34,57 @@ main {
     border-radius: 5px;
     margin: 5px;
 
+    .locator {
+      top: 40px;
+      z-index: 0;
+      position: relative;
+      height: 50px;
+      width: 50px;
+      left: 115px;
+      background-color: var(--agreen);
+      transition: all 0.3s ease;
+    }
+
     ul {
+      top: -50px;
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
       display: flex;
       list-style-type: none;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+
       li {
-        margin-bottom: 3px;
+        display: flex;
+        height: 30px;
+        align-items: center;
+        margin-bottom: 10px;
 
         a {
+          text-transform: uppercase;
+          display: flex;
+          align-items: center;
           text-decoration: none;
           color: var(--dgreen);
+          border-radius: 5px;
+          width: 100%;
+          height: 100%;
+          transition: all 0.1s ease;
+        }
+
+        .default {
+          background-color: var(--cgreen);
+          color: var(--agreen);
+        }
+
+        a:hover {
+          background-color: var(--a1green);
+        }
+
+        .prf:hover .locator {
+          top: 100px;
         }
       }
     }

@@ -9,18 +9,19 @@
 <body>
     <main>
         <nav>
+            <div class="locator"></div>
             <ul>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a class="dsb" href="dashboard.php">&nbsp;&nbsp;Dashboard&nbsp;&nbsp;&nbsp;</a>
                 </li>
                 <li>
-                    <a href="#">Profiling</a>
+                    <a class="prf" href="profiling.php">&nbsp;&nbsp;Profiling&nbsp;&nbsp;&nbsp;</a>
                 </li>
                 <li>
-                    <a href="#">Profiles</a>
+                    <a class="prfs default" href="profiles.php">&nbsp;&nbsp;Profiles&nbsp;&nbsp;&nbsp;</a>
                 </li>
                 <li>
-                    <a href="#">Payroll</a>
+                    <a class="prl" href="payroll.php">&nbsp;&nbsp;Payroll&nbsp;&nbsp;&nbsp;</a>
                 </li>
             </ul>
         </nav>
@@ -29,3 +30,5 @@
     </main>
 </body>
 </html>
+
+<script src="../JS Folder/hover.js" ></script>

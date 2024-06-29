@@ -1,0 +1,41 @@
+form {
+  h2 {
+    color: var(--dgreen);
+  }
+
+  h3 {
+    color: var(--cgreen);
+    margin-top: 20px;
+  }
+
+  label {
+    color: var(--dgreen);
+    display: block;
+    margin-top: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--ngrey);
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: var(--bgreen);
+    color: var(--ngrey);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: var(--cgreen);
+  }
+}
