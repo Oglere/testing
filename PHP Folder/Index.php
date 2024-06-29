@@ -7,25 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Profiling</a>
+                </li>
+                <li>
+                    <a href="#">Profiles</a>
+                </li>
+                <li>
+                    <a href="#">Payroll</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-content"></div>
+        <div class="bottom-left"></div>
+    </main>
 </body>
 </html>
-
-<script>
-    const dolls = {
-        "Doll1": {
-            "hair": {
-                "hair1": "blue",
-                "hair2": "red",
-                "hair3": "purple"
-            },
-            "skin": "tanned"
-        },
-        "Doll2": {
-            "hair": "red",
-            "skin": "white"
-        }
-    };
-
-    console.log(dolls.Doll1);
-</script>
